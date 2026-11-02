@@ -1,0 +1,76 @@
+# modeloINV - Default Configuration Specification
+# Authoritative Defaults for Paper, Backtest, and Live Trading
+
+system:
+  project_name: "modeloINV"
+  execution_mode: "paper"          # "paper" | "live" | "backtest"
+  log_level: "INFO"                # "DEBUG" | "INFO" | "WARNING" | "ERROR"
+  data_dir: "data"
+  cache_dir: "data/cache"
+  models_dir: "models"
+  database_url: "sqlite:///data/modeloinv.db"
+
+account:
+  base_currency: "EUR"
+  starting_capital_eur: 100.00
+  enable_fractional: true
+  min_order_notional_eur: 1.00
+  max_portfolio_positions: 5
+  max_position_weight: 0.30        # Max 30% of capital (€30) in single asset
+
+risk:
+  max_drawdown_limit: 0.15         # 15% drawdown circuit breaker (halts new buys)
+  kill_switch_drawdown: 0.25       # 25% catastrophic drawdown (liquidates all positions)
+  daily_loss_limit_eur: 10.00      # €10.00 daily loss stop
+  stop_loss_pct: 0.03              # 3% default stop loss
+  take_profit_pct: 0.06            # 6% default take profit
+
+execution:
+  broker: "simulated"              # "simulated" | "alpaca" | "mock"
+  slippage_model: "fixed_bps"      # "fixed_bps" | "spread" | "volume_impact"
+  slippage_bps: 5.0                # 5 basis points (0.05%) default slippage
+  fee_model: "alpaca"              # "alpaca" | "binance" | "zero"
+  fill_delay_ms: 0
+
+alpaca:
+  api_key_id: ""
+  api_secret_key: ""
+  base_url: "https://paper-api.alpaca.markets"
+  data_url: "https://data.alpaca.markets"
+  virtual_capital_eur: 100.00
+
+currency:
+  default_pair: "EURUSD"
+  fallback_rate: 1.0800
+  cache_ttl_seconds: 3600
+  fx_fee_pct: 0.0010               # 10 bps FX conversion markup
+
+data:
+  default_provider: "yahoo"
+  secondary_provider: "binance"
+  symbols:
+    equities: ["SPY", "QQQ", "AAPL", "NVDA", "MSFT"]
+    crypto: ["BTCUSDT", "ETHUSDT"]
+    fx: ["EURUSD=X"]
+  benchmark_symbol: "SPY"
+  cache_enabled: true
+
+strategy:
+  target_monthly_return: 0.20      # Target ≥20% monthly return
+  timeframes: ["1m", "5m", "15m", "1h"]
+  quant_weight: 0.35
+  ml_weight: 0.35
+  rl_weight: 0.30
+  regime_detection: true
+
+learning:
+  auto_retrain_trades: 25          # Retrain after every 25 completed trades
+  retrain_schedule_cron: "0 0 * * *"
+  min_eval_sharpe: 1.0
+  promotion_gate_enabled: true
+
+dashboard:
+  host: "127.0.0.1"
+  port: 8000
+  reload: false
+  cors_origins: ["*"]

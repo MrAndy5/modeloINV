@@ -1,0 +1,28 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases and runtime artifacts
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/*.parquet
+
+# Keep models registry but ignore transient weights if large
+models/v*
+
+# Environments & IDEs
+.env
+.venv/
+env/
+venv/
+.idea/
+.vscode/
+
+# Agent teamwork logs & traces
+.agents/

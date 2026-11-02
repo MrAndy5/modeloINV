@@ -1,0 +1,54 @@
+{
+  "evaluation_timestamp": "2026-10-26T21:33:29.711622Z",
+  "improvement_verified": false,
+  "v0_version": "v1.0.0",
+  "vn_version": "v1.1.0",
+  "holdout_samples": 240,
+  "metrics_comparison": {
+    "v0": {
+      "sharpe_ratio": 7.582,
+      "win_rate": 0.5482,
+      "cumulative_return": 0.0541,
+      "max_drawdown": 0.0201,
+      "profit_factor": 1.27,
+      "brier_score": 0.1085,
+      "total_trades": 228
+    },
+    "vN": {
+      "sharpe_ratio": 7.571,
+      "win_rate": 0.5511,
+      "cumulative_return": 0.0536,
+      "max_drawdown": 0.0189,
+      "profit_factor": 1.27,
+      "brier_score": 0.0929,
+      "total_trades": 225
+    },
+    "deltas": {
+      "delta_sharpe": -0.011,
+      "delta_win_rate": 0.0029,
+      "delta_return": -0.0005
+    }
+  },
+  "version_history": [
+    {
+      "version": "v1.0.0",
+      "sharpe_ratio": 7.582,
+      "win_rate": 0.5482,
+      "cumulative_return": 0.0541,
+      "max_drawdown": 0.0201,
+      "profit_factor": 1.27,
+      "brier_score": 0.1085,
+      "total_trades": 228
+    },
+    {
+      "version": "v1.1.0",
+      "sharpe_ratio": 7.571,
+      "win_rate": 0.5511,
+      "cumulative_return": 0.0536,
+      "max_drawdown": 0.0189,
+      "profit_factor": 1.27,
+      "brier_score": 0.0929,
+      "total_trades": 225
+    }
+  ]
+}

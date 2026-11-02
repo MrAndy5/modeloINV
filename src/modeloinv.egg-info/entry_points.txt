@@ -1,0 +1,2 @@
+[console_scripts]
+modeloinv = modeloinv.cli:main

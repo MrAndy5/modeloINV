@@ -1,0 +1,1926 @@
+{
+  "active_champion_version": "v9.21.0",
+  "last_updated": "2026-11-02T17:18:29.313095Z",
+  "models": [
+    {
+      "version": "v1.2.0",
+      "timestamp": "2026-10-26T22:06:51.494430",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "sharpe_ratio": 1.48,
+        "win_rate": 0.615,
+        "cumulative_return": 0.058,
+        "max_drawdown": 0.021
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.3.0",
+      "timestamp": "2026-10-26T22:07:10.099457",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "sharpe_ratio": 1.48,
+        "win_rate": 0.615,
+        "cumulative_return": 0.058,
+        "max_drawdown": 0.021
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.4.0",
+      "timestamp": "2026-10-27T07:15:02.357644",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "sharpe_ratio": 1.48,
+        "win_rate": 0.615,
+        "cumulative_return": 0.058,
+        "max_drawdown": 0.021
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.5.0",
+      "timestamp": "2026-10-27T07:16:29.376053",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "sharpe_ratio": 1.48,
+        "win_rate": 0.615,
+        "cumulative_return": 0.058,
+        "max_drawdown": 0.021
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.6.0",
+      "timestamp": "2026-10-27T07:20:57.628275",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "sharpe_ratio": 1.48,
+        "win_rate": 0.615,
+        "cumulative_return": 0.058,
+        "max_drawdown": 0.021
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.7.0",
+      "timestamp": "2026-10-27T07:21:03.837882",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "sharpe_ratio": 1.48,
+        "win_rate": 0.615,
+        "cumulative_return": 0.058,
+        "max_drawdown": 0.021
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.8.0",
+      "timestamp": "2026-10-27T07:21:50.273132",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "sharpe_ratio": 1.48,
+        "win_rate": 0.615,
+        "cumulative_return": 0.058,
+        "max_drawdown": 0.021
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.9.0",
+      "timestamp": "2026-10-27T07:22:19.801313",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "sharpe_ratio": 1.48,
+        "win_rate": 0.615,
+        "cumulative_return": 0.058,
+        "max_drawdown": 0.021
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.10.0",
+      "timestamp": "2026-10-27T07:23:26.381844",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "sharpe_ratio": 1.48,
+        "win_rate": 0.615,
+        "cumulative_return": 0.058,
+        "max_drawdown": 0.021
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.11.0",
+      "timestamp": "2026-10-27T07:23:58.903638",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "sharpe_ratio": 1.48,
+        "win_rate": 0.615,
+        "cumulative_return": 0.058,
+        "max_drawdown": 0.021
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.12.0",
+      "timestamp": "2026-10-27T07:24:05.746771",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "sharpe_ratio": 1.48,
+        "win_rate": 0.615,
+        "cumulative_return": 0.058,
+        "max_drawdown": 0.021
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.13.0",
+      "timestamp": "2026-10-27T07:24:15.561758",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "sharpe_ratio": 1.48,
+        "win_rate": 0.615,
+        "cumulative_return": 0.058,
+        "max_drawdown": 0.021
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.14.0",
+      "timestamp": "2026-10-27T07:27:06.981456",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "sharpe_ratio": 1.48,
+        "win_rate": 0.615,
+        "cumulative_return": 0.058,
+        "max_drawdown": 0.021
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.15.0",
+      "timestamp": "2026-10-27T07:27:07.242375",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "sharpe_ratio": 1.48,
+        "win_rate": 0.615,
+        "cumulative_return": 0.058,
+        "max_drawdown": 0.021
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.16.0",
+      "timestamp": "2026-10-27T07:27:40.236901",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "sharpe_ratio": 1.48,
+        "win_rate": 0.615,
+        "cumulative_return": 0.058,
+        "max_drawdown": 0.021
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.17.0",
+      "timestamp": "2026-10-27T07:27:40.500086",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "sharpe_ratio": 1.48,
+        "win_rate": 0.615,
+        "cumulative_return": 0.058,
+        "max_drawdown": 0.021
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.18.0",
+      "timestamp": "2026-10-27T07:27:46.570885",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "sharpe_ratio": 1.48,
+        "win_rate": 0.615,
+        "cumulative_return": 0.058,
+        "max_drawdown": 0.021
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.19.0",
+      "timestamp": "2026-10-27T07:28:18.037245",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "sharpe_ratio": 1.48,
+        "win_rate": 0.615,
+        "cumulative_return": 0.058,
+        "max_drawdown": 0.021
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.20.0",
+      "timestamp": "2026-10-27T07:36:09.685494",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "sharpe_ratio": 1.48,
+        "win_rate": 0.615,
+        "cumulative_return": 0.058,
+        "max_drawdown": 0.021
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.21.0",
+      "timestamp": "2026-10-27T07:36:09.948426",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "sharpe_ratio": 1.48,
+        "win_rate": 0.615,
+        "cumulative_return": 0.058,
+        "max_drawdown": 0.021
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.22.0",
+      "timestamp": "2026-10-27T07:36:15.252321",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "sharpe_ratio": 1.48,
+        "win_rate": 0.615,
+        "cumulative_return": 0.058,
+        "max_drawdown": 0.021
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.23.0",
+      "timestamp": "2026-10-27T08:35:56.211068",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "sharpe_ratio": 1.48,
+        "win_rate": 0.615,
+        "cumulative_return": 0.058,
+        "max_drawdown": 0.021
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.24.0",
+      "timestamp": "2026-10-27T08:35:56.492729",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "sharpe_ratio": 1.48,
+        "win_rate": 0.615,
+        "cumulative_return": 0.058,
+        "max_drawdown": 0.021
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.25.0",
+      "timestamp": "2026-10-27T08:50:07.689921",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 80
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.4375,
+        "roc_auc": 0.8283,
+        "f1_score": 0.3492,
+        "brier_score": 0.3499
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model retrained via CLI"
+    },
+    {
+      "version": "v1.26.0",
+      "timestamp": "2026-10-27T08:54:28.558500",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.375,
+        "roc_auc": 0.5,
+        "f1_score": 0.3556,
+        "brier_score": 0.2576
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.27.0",
+      "timestamp": "2026-10-27T08:54:51.694975",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.4375,
+        "roc_auc": 0.5833,
+        "f1_score": 0.4519,
+        "brier_score": 0.3336
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.28.0",
+      "timestamp": "2026-10-27T08:55:48.248214",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.1875,
+        "roc_auc": 0.5,
+        "f1_score": 0.1624,
+        "brier_score": 0.6592
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.29.0",
+      "timestamp": "2026-10-27T08:55:49.034661",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.1875,
+        "roc_auc": 0.5,
+        "f1_score": 0.1624,
+        "brier_score": 0.6592
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.30.0",
+      "timestamp": "2026-10-27T09:00:44.683945",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.5625,
+        "roc_auc": 0.7934,
+        "f1_score": 0.5968,
+        "brier_score": 0.069
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.31.0",
+      "timestamp": "2026-10-27T09:00:45.528399",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.5625,
+        "roc_auc": 0.7934,
+        "f1_score": 0.5968,
+        "brier_score": 0.069
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.32.0",
+      "timestamp": "2026-10-27T09:00:51.420283",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.5625,
+        "roc_auc": 0.7934,
+        "f1_score": 0.5968,
+        "brier_score": 0.069
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.33.0",
+      "timestamp": "2026-10-27T09:01:34.629743",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.6875,
+        "roc_auc": 0.5,
+        "f1_score": 0.2716,
+        "brier_score": 0.099
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.34.0",
+      "timestamp": "2026-10-27T09:01:40.572304",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.6875,
+        "roc_auc": 0.5,
+        "f1_score": 0.2716,
+        "brier_score": 0.099
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.35.0",
+      "timestamp": "2026-10-27T09:01:41.394042",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.6875,
+        "roc_auc": 0.5,
+        "f1_score": 0.2716,
+        "brier_score": 0.099
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.36.0",
+      "timestamp": "2026-10-27T09:05:21.477229",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.125,
+        "roc_auc": 0.5,
+        "f1_score": 0.0833,
+        "brier_score": 0.1927
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.37.0",
+      "timestamp": "2026-10-27T09:05:22.189247",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.125,
+        "roc_auc": 0.5,
+        "f1_score": 0.0833,
+        "brier_score": 0.1927
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.38.0",
+      "timestamp": "2026-10-27T09:05:44.118411",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.5,
+        "roc_auc": 0.5,
+        "f1_score": 0.2424,
+        "brier_score": 0.3186
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.39.0",
+      "timestamp": "2026-10-27T09:07:53.218197",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.625,
+        "roc_auc": 0.5268,
+        "f1_score": 0.2564,
+        "brier_score": 0.1462
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.40.0",
+      "timestamp": "2026-10-27T09:08:50.632416",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.5625,
+        "roc_auc": 0.5,
+        "f1_score": 0.3556,
+        "brier_score": 0.2131
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.41.0",
+      "timestamp": "2026-10-27T09:08:56.465717",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.1875,
+        "roc_auc": 0.5,
+        "f1_score": 0.1333,
+        "brier_score": 0.0623
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.42.0",
+      "timestamp": "2026-10-27T09:08:57.270390",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.1875,
+        "roc_auc": 0.5,
+        "f1_score": 0.1333,
+        "brier_score": 0.0623
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.43.0",
+      "timestamp": "2026-10-27T09:09:32.882481",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.25,
+        "roc_auc": 0.5167,
+        "f1_score": 0.2485,
+        "brier_score": 0.2773
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.44.0",
+      "timestamp": "2026-10-27T09:09:33.687960",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.25,
+        "roc_auc": 0.5167,
+        "f1_score": 0.2485,
+        "brier_score": 0.2773
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.45.0",
+      "timestamp": "2026-10-27T09:09:40.867334",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.25,
+        "roc_auc": 0.5167,
+        "f1_score": 0.2485,
+        "brier_score": 0.2773
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.46.0",
+      "timestamp": "2026-10-27T09:11:23.984098",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.1875,
+        "roc_auc": 0.5,
+        "f1_score": 0.1574,
+        "brier_score": 0.2487
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.47.0",
+      "timestamp": "2026-10-27T09:11:25.180249",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.1875,
+        "roc_auc": 0.5,
+        "f1_score": 0.1574,
+        "brier_score": 0.2487
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.48.0",
+      "timestamp": "2026-10-27T09:11:26.402270",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.1875,
+        "roc_auc": 0.5,
+        "f1_score": 0.1574,
+        "brier_score": 0.2487
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.49.0",
+      "timestamp": "2026-10-27T09:11:44.034963",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.3125,
+        "roc_auc": 0.7644,
+        "f1_score": 0.3311,
+        "brier_score": 0.1315
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.50.0",
+      "timestamp": "2026-10-27T09:12:09.049897",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.125,
+        "roc_auc": 0.5,
+        "f1_score": 0.0784,
+        "brier_score": 0.1799
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.51.0",
+      "timestamp": "2026-10-27T09:12:10.054769",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.125,
+        "roc_auc": 0.5,
+        "f1_score": 0.0784,
+        "brier_score": 0.1799
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.52.0",
+      "timestamp": "2026-10-27T09:12:16.671972",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.125,
+        "roc_auc": 0.5,
+        "f1_score": 0.0784,
+        "brier_score": 0.1799
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.53.0",
+      "timestamp": "2026-10-27T09:13:38.336060",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.3125,
+        "roc_auc": 0.3476,
+        "f1_score": 0.1994,
+        "brier_score": 0.0677
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.54.0",
+      "timestamp": "2026-10-27T09:13:39.125681",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.3125,
+        "roc_auc": 0.3476,
+        "f1_score": 0.1994,
+        "brier_score": 0.0677
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.55.0",
+      "timestamp": "2026-10-27T09:13:45.506805",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.3125,
+        "roc_auc": 0.3476,
+        "f1_score": 0.1994,
+        "brier_score": 0.0677
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.56.0",
+      "timestamp": "2026-10-27T09:19:27.229956",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.375,
+        "roc_auc": 0.2873,
+        "f1_score": 0.2778,
+        "brier_score": 0.4649
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.57.0",
+      "timestamp": "2026-10-27T09:19:28.228989",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.375,
+        "roc_auc": 0.2873,
+        "f1_score": 0.2778,
+        "brier_score": 0.4649
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.58.0",
+      "timestamp": "2026-10-27T09:19:29.407056",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.375,
+        "roc_auc": 0.2873,
+        "f1_score": 0.2778,
+        "brier_score": 0.4649
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.59.0",
+      "timestamp": "2026-10-27T09:22:15.508167",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.4375,
+        "roc_auc": 0.9443,
+        "f1_score": 0.4545,
+        "brier_score": 0.1752
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.60.0",
+      "timestamp": "2026-10-27T09:22:16.678000",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.4375,
+        "roc_auc": 0.9443,
+        "f1_score": 0.4545,
+        "brier_score": 0.1752
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.61.0",
+      "timestamp": "2026-10-27T09:22:22.311845",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.4375,
+        "roc_auc": 0.9443,
+        "f1_score": 0.4545,
+        "brier_score": 0.1752
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.62.0",
+      "timestamp": "2026-10-27T09:34:19.188422",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.3125,
+        "roc_auc": 0.4405,
+        "f1_score": 0.1667,
+        "brier_score": 0.3787
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.63.0",
+      "timestamp": "2026-10-27T09:35:50.927360",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.3125,
+        "roc_auc": 0.5479,
+        "f1_score": 0.1667,
+        "brier_score": 0.3328
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.64.0",
+      "timestamp": "2026-10-27T09:35:51.950725",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.3125,
+        "roc_auc": 0.5479,
+        "f1_score": 0.1667,
+        "brier_score": 0.3328
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.65.0",
+      "timestamp": "2026-10-27T09:37:20.794030",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.375,
+        "roc_auc": 0.5025,
+        "f1_score": 0.2824,
+        "brier_score": 0.3785
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.66.0",
+      "timestamp": "2026-10-27T09:37:38.949961",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.375,
+        "roc_auc": 0.3578,
+        "f1_score": 0.1818,
+        "brier_score": 0.2285
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.67.0",
+      "timestamp": "2026-10-27T09:37:45.129706",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.375,
+        "roc_auc": 0.3578,
+        "f1_score": 0.1818,
+        "brier_score": 0.2285
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.68.0",
+      "timestamp": "2026-10-27T09:37:46.268146",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.375,
+        "roc_auc": 0.3578,
+        "f1_score": 0.1818,
+        "brier_score": 0.2285
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.69.0",
+      "timestamp": "2026-10-27T09:38:20.711532",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.1875,
+        "roc_auc": 0.395,
+        "f1_score": 0.125,
+        "brier_score": 0.2277
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.70.0",
+      "timestamp": "2026-10-27T09:38:22.029815",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.1875,
+        "roc_auc": 0.395,
+        "f1_score": 0.125,
+        "brier_score": 0.2277
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.71.0",
+      "timestamp": "2026-10-27T09:38:28.235376",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.1875,
+        "roc_auc": 0.395,
+        "f1_score": 0.125,
+        "brier_score": 0.2277
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.72.0",
+      "timestamp": "2026-10-27T09:45:14.217829",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.25,
+        "roc_auc": 0.5,
+        "f1_score": 0.1667,
+        "brier_score": 0.4788
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.73.0",
+      "timestamp": "2026-10-27T09:45:15.350114",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.25,
+        "roc_auc": 0.5,
+        "f1_score": 0.1667,
+        "brier_score": 0.4788
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.74.0",
+      "timestamp": "2026-10-27T09:45:21.784419",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.25,
+        "roc_auc": 0.5,
+        "f1_score": 0.1667,
+        "brier_score": 0.4788
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.75.0",
+      "timestamp": "2026-10-27T09:49:03.644544",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.3125,
+        "roc_auc": 0.5867,
+        "f1_score": 0.3286,
+        "brier_score": 0.3726
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.76.0",
+      "timestamp": "2026-10-27T09:49:40.328690",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.6875,
+        "roc_auc": 0.5,
+        "f1_score": 0.5429,
+        "brier_score": 0.0079
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.77.0",
+      "timestamp": "2026-10-27T09:49:45.528640",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.25,
+        "roc_auc": 0.5,
+        "f1_score": 0.1717,
+        "brier_score": 0.1769
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.78.0",
+      "timestamp": "2026-10-27T09:49:46.843264",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.25,
+        "roc_auc": 0.5,
+        "f1_score": 0.1717,
+        "brier_score": 0.1769
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.79.0",
+      "timestamp": "2026-10-27T09:49:53.799033",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.25,
+        "roc_auc": 0.5,
+        "f1_score": 0.1717,
+        "brier_score": 0.1769
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.80.0",
+      "timestamp": "2026-10-27T09:50:48.503205",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.25,
+        "roc_auc": 0.5,
+        "f1_score": 0.2,
+        "brier_score": 0.4444
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.81.0",
+      "timestamp": "2026-10-27T09:51:04.746982",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.3125,
+        "roc_auc": 0.5,
+        "f1_score": 0.1587,
+        "brier_score": 0.3875
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.82.0",
+      "timestamp": "2026-10-27T09:52:42.248071",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.5625,
+        "roc_auc": 0.7381,
+        "f1_score": 0.585,
+        "brier_score": 0.2511
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.83.0",
+      "timestamp": "2026-10-27T09:53:05.947237",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.0625,
+        "roc_auc": 0.5,
+        "f1_score": 0.1667,
+        "brier_score": 0.6969
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v1.84.0",
+      "timestamp": "2026-10-27T09:53:07.125116",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.0625,
+        "roc_auc": 0.5,
+        "f1_score": 0.1667,
+        "brier_score": 0.6969
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v9.9.9",
+      "timestamp": "2026-10-26T09:53:16.481488+00:00",
+      "trigger_reason": "test",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.125,
+        "roc_auc": 0.2452,
+        "f1_score": 0.0784,
+        "brier_score": 0.3324
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "test"
+    },
+    {
+      "version": "v9.10.0",
+      "timestamp": "2026-10-27T09:53:33.170703",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.625,
+        "roc_auc": 0.5,
+        "f1_score": 0.2564,
+        "brier_score": 0.0461
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v9.11.0",
+      "timestamp": "2026-10-27T09:53:43.168266",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.4375,
+        "roc_auc": 0.5,
+        "f1_score": 0.3766,
+        "brier_score": 0.3832
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v9.12.0",
+      "timestamp": "2026-10-27T09:53:44.345375",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.4375,
+        "roc_auc": 0.5,
+        "f1_score": 0.3766,
+        "brier_score": 0.3832
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v9.13.0",
+      "timestamp": "2026-10-27T09:53:50.825502",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.4375,
+        "roc_auc": 0.5,
+        "f1_score": 0.3766,
+        "brier_score": 0.3832
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v9.14.0",
+      "timestamp": "2026-10-27T09:54:04.822585",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.375,
+        "roc_auc": 0.5,
+        "f1_score": 0.2778,
+        "brier_score": 0.5839
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v9.15.0",
+      "timestamp": "2026-10-27T09:54:06.161948",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.375,
+        "roc_auc": 0.5,
+        "f1_score": 0.2778,
+        "brier_score": 0.5839
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v9.16.0",
+      "timestamp": "2026-10-27T09:54:07.390056",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.375,
+        "roc_auc": 0.5,
+        "f1_score": 0.2778,
+        "brier_score": 0.5839
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v9.17.0",
+      "timestamp": "2026-11-02T17:05:24.994730",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.4375,
+        "roc_auc": 0.5,
+        "f1_score": 0.2646,
+        "brier_score": 0.052
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v9.18.0",
+      "timestamp": "2026-11-02T17:05:26.266530",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.4375,
+        "roc_auc": 0.5,
+        "f1_score": 0.2646,
+        "brier_score": 0.052
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v9.19.0",
+      "timestamp": "2026-11-02T17:05:33.417092",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.4375,
+        "roc_auc": 0.5,
+        "f1_score": 0.2646,
+        "brier_score": 0.052
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v9.20.0",
+      "timestamp": "2026-11-02T17:08:01.804966",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.4375,
+        "roc_auc": 0.5,
+        "f1_score": 0.3766,
+        "brier_score": 0.3919
+      },
+      "artifacts": {},
+      "status": "ARCHIVED",
+      "description": "Candidate model promoted via CLI retrain command"
+    },
+    {
+      "version": "v9.21.0",
+      "timestamp": "2026-11-02T17:18:29.303092",
+      "trigger_reason": "cli_manual_retrain",
+      "training_window": {
+        "days": 60,
+        "samples": 240
+      },
+      "ml_metrics": {},
+      "rl_metrics": {},
+      "validation_metrics": {
+        "accuracy": 0.1875,
+        "roc_auc": 0.5205,
+        "f1_score": 0.1402,
+        "brier_score": 0.3753
+      },
+      "artifacts": {},
+      "status": "CHAMPION",
+      "description": "Candidate model promoted via CLI retrain command"
+    }
+  ]
+}

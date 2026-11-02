@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>modeloINV Dashboard — Institutional Algorithmic Trading</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body class="bg-gray-900 text-gray-100">
+
+  <!-- Header Bar -->
+  <header class="header-bar">
+    <div class="brand-wrapper">
+      <div class="brand-logo">M</div>
+      <div>
+        <h1 class="brand-title">modeloINV Dashboard</h1>
+        <div class="brand-sub">Micro-Capital €100 Quantitative Trading System</div>
+      </div>
+    </div>
+
+    <div class="header-actions">
+      <!-- WebSocket Live Pulse -->
+      <div id="ws-badge" class="badge badge-green">
+        <span class="pulse-dot"></span>
+        <span id="ws-status">LIVE STREAM</span>
+      </div>
+
+      <!-- Live Readiness Pill -->
+      <div id="readiness-badge" class="badge badge-blue">
+        <span>READINESS: 8/8 PASS</span>
+      </div>
+
+      <!-- Paper / Live Mode Toggle Button -->
+      <button id="mode-toggle-btn" class="btn btn-mode-toggle">
+        <span id="mode-text">MODE: PAPER</span>
+      </button>
+
+      <!-- Manual Retrain Button -->
+      <button id="retrain-btn" class="btn btn-outline" title="Trigger Offline Retraining">
+        <span>⚡ Retrain Model</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Real-Time KPI Cards Grid -->
+  <section class="kpi-grid">
+    <div class="glass-panel kpi-card">
+      <div class="kpi-title">Portfolio Equity (€)</div>
+      <div id="kpi-equity" class="kpi-value">€100.00</div>
+      <div id="kpi-pnl" class="kpi-sub text-positive">+€0.00 (+0.00%)</div>
+    </div>
+
+    <div class="glass-panel kpi-card">
+      <div class="kpi-title">Monthly Return Target</div>
+      <div id="kpi-monthly" class="kpi-value text-positive">+21.4%</div>
+      <div class="kpi-sub text-neutral">Goal: ≥20.0% / month</div>
+    </div>
+
+    <div class="glass-panel kpi-card">
+      <div class="kpi-title">Sharpe & Sortino</div>
+      <div id="kpi-ratios" class="kpi-value">1.45 / 1.82</div>
+      <div class="kpi-sub text-neutral">Annualized (Gate > 1.0)</div>
+    </div>
+
+    <div class="glass-panel kpi-card">
+      <div class="kpi-title">Max Drawdown</div>
+      <div id="kpi-drawdown" class="kpi-value text-positive">3.5%</div>
+      <div class="kpi-sub text-neutral">Ceiling: 10.0% max</div>
+    </div>
+
+    <div class="glass-panel kpi-card">
+      <div class="kpi-title">Win Rate & Trades</div>
+      <div id="kpi-winrate" class="kpi-value">62.0%</div>
+      <div id="kpi-trades" class="kpi-sub text-neutral">64 Trades Executed</div>
+    </div>
+  </section>
+
+  <!-- Primary Interactive Charts Grid -->
+  <section class="charts-grid">
+    <!-- Equity vs S&P 500 Benchmark Chart -->
+    <div class="glass-panel">
+      <div class="chart-header">
+        <h2 class="chart-title">Strategy Equity vs S&P 500 Buy-and-Hold Benchmark (€)</h2>
+        <span id="benchmark-alpha" class="badge badge-green">+15.1% Alpha</span>
+      </div>
+      <div class="chart-container">
+        <canvas id="benchmarkChart"></canvas>
+      </div>
+    </div>
+
+    <!-- Asset Allocation Doughnut Chart -->
+    <div class="glass-panel">
+      <div class="chart-header">
+        <h2 class="chart-title">Asset Allocation</h2>
+        <span class="badge badge-blue">Dynamic MAB</span>
+      </div>
+      <div class="chart-container">
+        <canvas id="allocationChart"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- Secondary Charts Grid: Drawdown & Continuous Learning Evolution -->
+  <section class="charts-grid">
+    <!-- Drawdown Underwater Chart -->
+    <div class="glass-panel">
+      <div class="chart-header">
+        <h2 class="chart-title">Portfolio Underwater Drawdown (%)</h2>
+        <span class="badge badge-green">Within Risk Limits</span>
+      </div>
+      <div class="chart-container">
+        <canvas id="drawdownChart"></canvas>
+      </div>
+    </div>
+
+    <!-- Continuous Learning Model Progression -->
+    <div class="glass-panel">
+      <div class="chart-header">
+        <h2 class="chart-title">Continuous Learning Progression (Sharpe by Version)</h2>
+        <span id="current-model-ver" class="badge badge-yellow">v1.2.0 Champion</span>
+      </div>
+      <div class="chart-container">
+        <canvas id="learningChart"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tables Section: Positions & Trade History -->
+  <section class="tables-grid">
+    <!-- Open Positions -->
+    <div class="glass-panel">
+      <div class="chart-header">
+        <h2 class="chart-title">Open Positions (Fractional Intraday)</h2>
+        <span id="positions-count" class="badge badge-blue">0 Open</span>
+      </div>
+      <div class="table-wrapper">
+        <table id="positions-table">
+          <thead>
+            <tr>
+              <th>Symbol</th>
+              <th>Qty</th>
+              <th>Entry Price</th>
+              <th>Market Price</th>
+              <th>Unrealized P&L</th>
+            </tr>
+          </thead>
+          <tbody id="positions-body">
+            <tr>
+              <td colspan="5" style="text-align: center; color: var(--text-muted); padding: 1.5rem;">No open positions</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Recent Trades -->
+    <div class="glass-panel">
+      <div class="chart-header">
+        <h2 class="chart-title">Recent Executed Trades</h2>
+        <span class="badge badge-blue">Slippage & Fees Modeled</span>
+      </div>
+      <div class="table-wrapper">
+        <table id="trades-table">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Symbol</th>
+              <th>Side</th>
+              <th>Qty</th>
+              <th>Price</th>
+              <th>Fee/Slip</th>
+              <th>Realized P&L</th>
+            </tr>
+          </thead>
+          <tbody id="trades-body">
+            <tr>
+              <td colspan="7" style="text-align: center; color: var(--text-muted); padding: 1.5rem;">No trade history</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8-Gate Live Readiness Engine Widget -->
+  <section class="glass-panel readiness-widget">
+    <div class="chart-header">
+      <div>
+        <h2 class="chart-title">8-Gate Live Broker Deployment Readiness Engine</h2>
+        <div id="readiness-summary" class="kpi-sub text-positive" style="margin-top: 0.25rem;">
+          All 8 deployment gates evaluated and verified.
+        </div>
+      </div>
+      <span id="readiness-cert" class="badge badge-green">LIVE CERTIFIED</span>
+    </div>
+    <div id="gates-container" class="gates-grid">
+      <!-- Injected dynamically via app.js -->
+    </div>
+  </section>
+
+  <!-- Mode Toggle Confirmation Modal -->
+  <div id="mode-modal" class="modal-overlay">
+    <div class="modal-card">
+      <div class="modal-header">Confirm Execution Mode Switch</div>
+      <div id="modal-desc" class="modal-body">
+        Are you sure you want to switch to LIVE trading mode?
+      </div>
+      <div class="modal-footer">
+        <button id="modal-cancel-btn" class="btn btn-outline">Cancel</button>
+        <button id="modal-confirm-btn" class="btn btn-primary">Confirm Switch</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="/static/js/chart.min.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
