@@ -12,7 +12,10 @@ from dataclasses import asdict, dataclass, field
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Type, TypeVar, cast, get_type_hints
 
-import yaml
+try:
+    import yaml
+except ImportError:
+    yaml = None  # type: ignore[assignment]
 
 logger = logging.getLogger(__name__)
 
@@ -288,13 +291,16 @@ def load_config(
                 break
 
     if target_path and target_path.is_file():
-        try:
-            with open(target_path, "r", encoding="utf-8") as f:
-                loaded = yaml.safe_load(f)
-                if isinstance(loaded, dict):
-                    cfg_dict = loaded
-        except Exception as e:
-            logger.warning(f"Failed to parse config file at {target_path}: {e}")
+        if yaml is not None:
+            try:
+                with open(target_path, "r", encoding="utf-8") as f:
+                    loaded = yaml.safe_load(f)
+                    if isinstance(loaded, dict):
+                        cfg_dict = loaded
+            except Exception as e:
+                logger.warning(f"Failed to parse config file at {target_path}: {e}")
+        else:
+            logger.info("PyYAML not installed; falling back to default dataclass configuration.")
 
     # Apply environment variable overrides
     _apply_env_overrides(cfg_dict)

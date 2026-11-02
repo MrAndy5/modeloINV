@@ -119,7 +119,7 @@ Traditional retail algorithmic trading frameworks fail on micro-capital accounts
 
 1. **Clone Repository**:
    ```powershell
-   git clone https://github.com/your-org/modeloINV.git
+   git clone https://github.com/MrAndy5/modeloINV.git
    cd modeloINV
    ```
 
@@ -136,10 +136,12 @@ Traditional retail algorithmic trading frameworks fail on micro-capital accounts
 
 3. **Install Dependencies**:
    ```powershell
-   pip install --upgrade pip setuptools wheel
+   # Upgrade pip first to ensure binary wheels are used (avoids C++ compiler requirement)
+   python -m pip install --upgrade pip
+   pip install -r requirements.txt --prefer-binary
    pip install -e .
-   pip install -e ".[dev]"
    ```
+   > **Note on PyYAML / C++ compiler error**: PyYAML >=6.0.2 provides pre-built binary wheels for Python 3.10, 3.11, 3.12, and 3.13 across all platforms. Using `--prefer-binary` ensures pip downloads the pre-compiled binary wheel instead of trying to compile from source.
 
 ---
 
